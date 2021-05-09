@@ -1,0 +1,2 @@
+# trading-note
+Trading note
