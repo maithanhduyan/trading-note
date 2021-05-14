@@ -1,0 +1,47 @@
+{
+  "name": "trading-note",
+  "version": "1.0.0",
+  "description": "Trading Note",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "install": "npm install express --save npm install chart.js npm install csv-parser npm install csv-writer npm install lightweight-charts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maithanhduyan/trading-note.git"
+  },
+  "keywords": [
+    "trading-note"
+  ],
+  "author": "Mai Thành Duy An",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maithanhduyan/trading-note/issues"
+  },
+  "homepage": "https://github.com/maithanhduyan/trading-note#readme",
+  "dependencies": {
+    "chart.js": "^3.2.1",
+    "cookie-parser": "~1.4.4",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-generator": "^4.16.1",
+    "http-errors": "~1.6.3",
+    "install": "^0.13.0",
+    "jsbarcode": "^3.11.4",
+    "lightweight-charts": "^3.3.0",
+    "morgan": "~1.9.1",
+    "npm": "^7.12.1"
+  },
+  "devDependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
+  }
+}
